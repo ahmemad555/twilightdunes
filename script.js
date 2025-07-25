@@ -418,4 +418,23 @@ function getCurrentSection() {
     }
     
     return null;
-} 
+}
+
+
+const btn=document.querySelector(".btn-primary")
+console.log(btn);
+
+
+addEventListener('click',(e)=>{
+    e.preventDefault()
+    console.log("asdfasdf");
+    
+    window.location.href="https://direct-book.com/properties/twilightdunes?locale=en&from_widget=true&referrer=canvas&items[0][adults]=2&items[0][children]=0&items[0][infants]=0&currency=OMR&checkInDate=2025-07-25&checkOutDate=2025-07-26&trackPage=yes"
+
+})
+
+
+
+
+
+ 
